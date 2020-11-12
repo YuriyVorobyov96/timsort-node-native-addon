@@ -5,7 +5,7 @@
   </tr>
   <tr>
     <th></th><th></th>
-    <th colspan="3">Execution Time (ns)</th>
+    <th colspan="3">Execution Time (ms)</th>
   </tr>
   <tr>
     <th>Array Type</th>
@@ -16,22 +16,22 @@
   </tr>
 <tbody>
   <tr>
-    <td rowspan="6">Random numbers</td><td>10</td><td>8.28ms</td><td>0.64ms</td><td>0.818ms</td>
+    <td rowspan="6">Random numbers</td><td>10</td><td>8.28</td><td>0.64</td><td>0.818</td>
   </tr>
   <tr>
-    <td>100</td><td>13.034ms</td><td>1.459ms</td><td>3.704ms</td>
+    <td>100</td><td>13.034</td><td>1.459</td><td>3.704</td>
   </tr>
   <tr>
-    <td>1000</td><td>16.278ms</td><td>5.164ms</td><td>8.473ms</td>
+    <td>1000</td><td>16.278</td><td>5.164</td><td>8.473</td>
   </tr>
   <tr>
-    <td>10000</td><td>22.8ms</td><td>26.579ms</td><td>6.12ms</td>
+    <td>10000</td><td>22.8</td><td>26.579</td><td>6.12</td>
   </tr>
   <tr>
-    <td>100000</td><td>47.619ms</td><td>65.808ms</td><td>11.422ms</td>
+    <td>100000</td><td>47.619</td><td>65.808</td><td>11.422</td>
   </tr>
   <tr>
-    <td>1000000</td><td>348.936ms</td><td>514.515ms</td><td>96.164ms</td>
+    <td>1000000</td><td>348.936</td><td>514.515</td><td>96.164</td>
   </tr>
 </tbody>
 </table>
@@ -43,7 +43,7 @@
   </tr>
   <tr>
     <th></th><th></th>
-    <th colspan="3">Execution Time (ns)</th>
+    <th colspan="3">Execution Time (ms)</th>
   </tr>
   <tr>
     <th>Array Type</th>
@@ -54,22 +54,22 @@
   </tr>
 <tbody>
   <tr>
-    <td rowspan="6">Random numbers</td><td>10</td><td>11.551ms</td><td>5.545ms</td><td>1.794ms</td>
+    <td rowspan="6">Random numbers</td><td>10</td><td>11.551</td><td>5.545</td><td>1.794</td>
   </tr>
   <tr>
-    <td>100</td><td>20.019ms</td><td>1.510ms</td><td>4.426ms</td>
+    <td>100</td><td>20.019</td><td>1.510</td><td>4.426</td>
   </tr>
   <tr>
-    <td>1000</td><td>16.027ms</td><td>6.080ms</td><td>7.187ms</td>
+    <td>1000</td><td>16.027</td><td>6.080</td><td>7.187</td>
   </tr>
   <tr>
-    <td>10000</td><td>24.311ms</td><td>19.311ms</td><td>15.247ms</td>
+    <td>10000</td><td>24.311</td><td>19.311</td><td>15.247</td>
   </tr>
   <tr>
-    <td>100000</td><td>55.106ms</td><td>64.357ms</td><td>16.891ms</td>
+    <td>100000</td><td>55.106</td><td>64.357</td><td>16.891</td>
   </tr>
   <tr>
-    <td>1000000</td><td>369.540ms</td><td>503.955ms</td><td>114.105ms</td>
+    <td>1000000</td><td>369.540</td><td>503.955</td><td>114.105</td>
   </tr>
 </tbody>
 </table>
@@ -81,7 +81,7 @@
   </tr>
   <tr>
     <th></th><th></th>
-    <th colspan="3">Execution Time (ns)</th>
+    <th colspan="3">Execution Time (ms)</th>
   </tr>
   <tr>
     <th>Array Type</th>
@@ -92,22 +92,22 @@
   </tr>
 <tbody>
   <tr>
-    <td rowspan="6">Random numbers</td><td>10</td><td>6.016ms</td><td>6.615ms</td><td>0.668ms</td>
+    <td rowspan="6">Random numbers</td><td>10</td><td>6.016</td><td>6.615</td><td>0.668</td>
   </tr>
   <tr>
-    <td>100</td><td>31.663ms</td><td>1.651ms</td><td>18.852ms</td>
+    <td>100</td><td>31.663</td><td>1.651</td><td>18.852</td>
   </tr>
   <tr>
-    <td>1000</td><td>25.543ms</td><td>5.980ms</td><td>22.110ms</td>
+    <td>1000</td><td>25.543</td><td>5.980</td><td>22.110</td>
   </tr>
   <tr>
-    <td>10000</td><td>26.889ms</td><td>22.761ms</td><td>26.338ms</td>
+    <td>10000</td><td>26.889</td><td>22.761</td><td>26.338</td>
   </tr>
   <tr>
-    <td>100000</td><td>56.226ms</td><td>65.575ms</td><td>66.995ms</td>
+    <td>100000</td><td>56.226</td><td>65.575</td><td>66.995</td>
   </tr>
   <tr>
-    <td>1000000</td><td>360.797ms</td><td>449.254ms</td><td>501.470ms</td>
+    <td>1000000</td><td>360.797</td><td>449.254</td><td>501.470</td>
   </tr>
 </tbody>
 </table>
