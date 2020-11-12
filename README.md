@@ -5,7 +5,7 @@
   </tr>
   <tr>
     <th></th><th></th>
-    <th colspan="2">Execution Time (ns)</th>
+    <th colspan="3">Execution Time (ns)</th>
   </tr>
   <tr>
     <th>Array Type</th>
@@ -16,7 +16,7 @@
   </tr>
 <tbody>
   <tr>
-    <td rowspan="4">Random numbers</td><td>10</td><td>8.28ms</td><td>0.64ms</td><td>0.818ms</td>
+    <td rowspan="6">Random numbers</td><td>10</td><td>8.28ms</td><td>0.64ms</td><td>0.818ms</td>
   </tr>
   <tr>
     <td>100</td><td>13.034ms</td><td>1.459ms</td><td>3.704ms</td>
@@ -43,7 +43,7 @@
   </tr>
   <tr>
     <th></th><th></th>
-    <th colspan="2">Execution Time (ns)</th>
+    <th colspan="3">Execution Time (ns)</th>
   </tr>
   <tr>
     <th>Array Type</th>
@@ -54,7 +54,7 @@
   </tr>
 <tbody>
   <tr>
-    <td rowspan="4">Random numbers</td><td>10</td><td>11.551ms</td><td>5.545ms</td><td>1.794ms</td>
+    <td rowspan="6">Random numbers</td><td>10</td><td>11.551ms</td><td>5.545ms</td><td>1.794ms</td>
   </tr>
   <tr>
     <td>100</td><td>20.019ms</td><td>1.510ms</td><td>4.426ms</td>
@@ -81,7 +81,7 @@
   </tr>
   <tr>
     <th></th><th></th>
-    <th colspan="2">Execution Time (ns)</th>
+    <th colspan="3">Execution Time (ns)</th>
   </tr>
   <tr>
     <th>Array Type</th>
@@ -92,7 +92,7 @@
   </tr>
 <tbody>
   <tr>
-    <td rowspan="4">Random numbers</td><td>10</td><td>6.016ms</td><td>6.615ms</td><td>0.668ms</td>
+    <td rowspan="6">Random numbers</td><td>10</td><td>6.016ms</td><td>6.615ms</td><td>0.668ms</td>
   </tr>
   <tr>
     <td>100</td><td>31.663ms</td><td>1.651ms</td><td>18.852ms</td>
