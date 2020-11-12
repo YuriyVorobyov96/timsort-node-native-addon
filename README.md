@@ -6,7 +6,6 @@
   <tr>
     <th></th><th></th>
     <th colspan="2">Execution Time (ns)</th>
-    <th rowspan="2">Speedup</th>
   </tr>
   <tr>
     <th>Array Type</th>
@@ -45,7 +44,6 @@
   <tr>
     <th></th><th></th>
     <th colspan="2">Execution Time (ns)</th>
-    <th rowspan="2">Speedup</th>
   </tr>
   <tr>
     <th>Array Type</th>
@@ -84,7 +82,6 @@
   <tr>
     <th></th><th></th>
     <th colspan="2">Execution Time (ns)</th>
-    <th rowspan="2">Speedup</th>
   </tr>
   <tr>
     <th>Array Type</th>
