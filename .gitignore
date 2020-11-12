@@ -400,3 +400,6 @@ dist
 docker-compose.yml
 docker_front
 upload
+build/
+build
+/build/*
