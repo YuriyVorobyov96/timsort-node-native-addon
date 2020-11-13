@@ -6,10 +6,10 @@
 using namespace std; 
 const int RUN = 32; 
   
-void insertionSort(vector<int>& arr, int& left, const int& right) { 
+void insertionSort(vector<double>& arr, int& left, const int& right) { 
   for (int i = left + 1; i <= right; i++) 
   { 
-    int temp = arr[i]; 
+    double temp = arr[i]; 
     int j = i - 1; 
 
     while (j >= left && arr[j] > temp) { 
@@ -21,17 +21,24 @@ void insertionSort(vector<int>& arr, int& left, const int& right) {
   } 
 } 
 
-void merge(vector<int>& arr, int& l, int& m, int& r) {
+void merge(vector<double>& arr, int& l, int& m, int& r) {
   int len1 = m - l + 1, len2 = r - m; 
-  vector<int> left;
-  vector<int> right;
+  vector<double> left;
+  vector<double> right;
+
+  cout << 11111 << endl;
 
   for (int i = 0; i < len1; i++) {
     left.push_back(arr[l + i]); 
   }
+
+  cout << 22222 << endl;
+
   for (int i = 0; i < len2; i++) {
     right.push_back(arr[m + 1 + i]);
   }
+
+  cout << 3333 << endl;
 
   int i = 0; 
   int j = 0; 
@@ -61,7 +68,7 @@ void merge(vector<int>& arr, int& l, int& m, int& r) {
   }
 } 
 
-void timSort(vector<int>& arr, const int& n) {
+void timSort(vector<double>& arr, const int& n) {
   for (int i = 0; i < n; i+=RUN) {
     insertionSort(arr, i, min((i+31), (n-1)));
   }
@@ -78,27 +85,48 @@ void timSort(vector<int>& arr, const int& n) {
 Napi::Array Sort(const Napi::CallbackInfo& info) {
   Napi::Env env = info.Env();
 
-  const Napi::Array inputArray = info[0].As<Napi::Array>();
+  // const Napi::Array inputArray = info[0].As<Napi::Array>();
 
-  unsigned int length = inputArray.Length();  
-  vector<int> array;
+  const Napi::Float64Array inputArray = info[0].As<Napi::Float64Array>();
+
+  // Napi::Buffer<double> buffer = info[0].As<Napi::Buffer<double>>();
+
+  // unsigned int length = inputArray.Length();  
+  unsigned int inputLength = inputArray.ElementLength() / sizeof(double);
+  // vector<int> array = {1,2,3};
   unsigned int i;
 
-  cout << "length: " << length << endl;
+  // double (*arrrrrr)[inputLength] = (double (*)[inputLength])inputArray.Data();
 
-  for (i = 0; i < length; i++) {
-    int value = inputArray[i].As<Napi::Number>();
+  vector<double> array(inputArray.Data(), inputArray.Data() + inputLength);
 
-    array.push_back(value);
-  }
+  // for (const auto& x : vuc) {
+  //   cout << x << " ";
+  // }
+
+  // cout << endl;
+
+  // cout << "asdasdsada" << endl;
+  // cout << inputArray[0] << endl;
+  // cout << inputArray[1] << endl;
+  // cout << inputArray[2] << endl;
+  // cout << "asdasdsada 2" << endl;
+
+  cout << "length: " << inputLength << endl;
+
+  // for (i = 0; i < length; i++) {
+  //   int value = inputArray[i].As<Napi::Number>();
+
+  //   array.push_back(value);
+  // }
 
   int n = array.size();
 
   timSort(array, n);
 
-  Napi::Array outputArray = Napi::Array::New(env, length);
+  Napi::Array outputArray = Napi::Array::New(env, inputLength);
 
-  for (i = 0; i < length; i++) {
+  for (i = 0; i < inputLength; i++) {
     outputArray[i] = Napi::Number::New(env, array[i]);
   }
   
