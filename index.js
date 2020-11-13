@@ -1,7 +1,7 @@
 const timsort = require('bindings')('timsort');
 const TimSort = require('timsort');
 
-const length = 10000;
+const length = 1000000;
 
 const arr = Array.from({ length }, (_, i) => i);
 const arr2 = Array.from({ length }, (_, i) => length - i);
@@ -42,16 +42,21 @@ shuffle(arr)
 // const buff = Buffer.from(marr.buffer);
 // console.log(buff);
 // console.log(marr.buffer);
+// console.log(timsort.sort(Buffer.from(marr.buffer)));
 
-const marr = new Float64Array(arr);
+
+// console.time('timsortBuffer');
+// const marr = new Float64Array(arr);
+// console.log(timsort.sortBuffer(Buffer.from(marr.buffer)));
+// console.timeEnd('timsortBuffer');
 
 console.time('timsort');
-console.log(timsort.sort(Buffer.from(marr.buffer)));
+console.log(timsort.sort(arr));
 console.timeEnd('timsort');
 
-// console.time('timsortJs');
-// console.log(TimSort.sort(arr));
-// console.timeEnd('timsortJs');
+console.time('timsortJs');
+console.log(TimSort.sort(arr));
+console.timeEnd('timsortJs');
 
 // console.time('jssort');
 // console.log(arr.sort((a, b) => a - b));

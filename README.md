@@ -1,5 +1,43 @@
 <table>
   <tr>
+    <th>Version 2</th>
+    <th>Node Version: 14</th>
+  </tr>
+  <tr>
+    <th></th><th></th>
+    <th colspan="3">Execution Time (ms)</th>
+  </tr>
+  <tr>
+    <th>Array Type</th>
+    <th>Length</th>
+    <th>C++ TimSort.sort</th>
+    <th>JS TimSort.sort</th>
+    <th>array.sort</th>
+  </tr>
+<tbody>
+  <tr>
+    <td rowspan="6">Random numbers</td><td>10</td><td>6.825</td><td>0.64</td><td>0.818</td>
+  </tr>
+  <tr>
+    <td>100</td><td>9.793</td><td>1.459</td><td>3.704</td>
+  </tr>
+  <tr>
+    <td>1000</td><td>13.79</td><td>5.164</td><td>8.473</td>
+  </tr>
+  <tr>
+    <td>10000</td><td>11.801</td><td>26.579</td><td>6.12</td>
+  </tr>
+  <tr>
+    <td>100000</td><td>42.492</td><td>65.808</td><td>11.422</td>
+  </tr>
+  <tr>
+    <td>1000000</td><td>335.273</td><td>514.515</td><td>96.164</td>
+  </tr>
+</tbody>
+</table>
+
+<table>
+  <tr>
     <th>Version 1</th>
     <th>Node Version: 14</th>
   </tr>
