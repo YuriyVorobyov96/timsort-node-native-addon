@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <th>Version 2</th>
+    <th>Version 3</th>
     <th>Node Version: 14</th>
   </tr>
   <tr>
@@ -12,71 +12,33 @@
     <th>Length</th>
     <th>C++ TimSort.sort</th>
     <th>JS TimSort.sort</th>
-    <th>array.sort</th>
+    <th>Array.sort</th>
   </tr>
 <tbody>
   <tr>
-    <td rowspan="6">Random numbers</td><td>10</td><td>6.825</td><td>0.64</td><td>0.818</td>
+    <td rowspan="6">Random numbers</td><td>10</td><td>0.107</td><td>0.354</td><td>0.087</td>
   </tr>
   <tr>
-    <td>100</td><td>9.793</td><td>1.459</td><td>3.704</td>
+    <td>100</td><td>0.122</td><td>1.033</td><td>0.116</td>
   </tr>
   <tr>
-    <td>1000</td><td>13.79</td><td>5.164</td><td>8.473</td>
+    <td>1000</td><td>0.347</td><td>4.86</td><td>0.334</td>
   </tr>
   <tr>
-    <td>10000</td><td>11.801</td><td>26.579</td><td>6.12</td>
+    <td>10000</td><td>2.119</td><td>20.732</td><td>2.789</td>
   </tr>
   <tr>
-    <td>100000</td><td>42.492</td><td>65.808</td><td>11.422</td>
+    <td>100000</td><td>23.745</td><td>76.374</td><td>29.847</td>
   </tr>
   <tr>
-    <td>1000000</td><td>335.273</td><td>514.515</td><td>96.164</td>
+    <td>1000000</td><td>271.021</td><td>503.241</td><td>352.77</td>
   </tr>
 </tbody>
 </table>
 
 <table>
   <tr>
-    <th>Version 1</th>
-    <th>Node Version: 14</th>
-  </tr>
-  <tr>
-    <th></th><th></th>
-    <th colspan="3">Execution Time (ms)</th>
-  </tr>
-  <tr>
-    <th>Array Type</th>
-    <th>Length</th>
-    <th>C++ TimSort.sort</th>
-    <th>JS TimSort.sort</th>
-    <th>array.sort</th>
-  </tr>
-<tbody>
-  <tr>
-    <td rowspan="6">Random numbers</td><td>10</td><td>8.28</td><td>0.64</td><td>0.818</td>
-  </tr>
-  <tr>
-    <td>100</td><td>13.034</td><td>1.459</td><td>3.704</td>
-  </tr>
-  <tr>
-    <td>1000</td><td>16.278</td><td>5.164</td><td>8.473</td>
-  </tr>
-  <tr>
-    <td>10000</td><td>22.8</td><td>26.579</td><td>6.12</td>
-  </tr>
-  <tr>
-    <td>100000</td><td>47.619</td><td>65.808</td><td>11.422</td>
-  </tr>
-  <tr>
-    <td>1000000</td><td>348.936</td><td>514.515</td><td>96.164</td>
-  </tr>
-</tbody>
-</table>
-
-<table>
-  <tr>
-    <th>Version 1</th>
+    <th>Version 3</th>
     <th>Node Version: 12</th>
   </tr>
   <tr>
@@ -88,33 +50,33 @@
     <th>Length</th>
     <th>C++ TimSort.sort</th>
     <th>JS TimSort.sort</th>
-    <th>array.sort</th>
+    <th>Array.sort</th>
   </tr>
 <tbody>
   <tr>
-    <td rowspan="6">Random numbers</td><td>10</td><td>11.551</td><td>5.545</td><td>1.794</td>
+    <td rowspan="6">Random numbers</td><td>10</td><td>0.098</td><td>0.334</td><td>0.095</td>
   </tr>
   <tr>
-    <td>100</td><td>20.019</td><td>1.510</td><td>4.426</td>
+    <td>100</td><td>0.126</td><td>1.190</td><td>0.117</td>
   </tr>
   <tr>
-    <td>1000</td><td>16.027</td><td>6.080</td><td>7.187</td>
+    <td>1000</td><td>1.376</td><td>6.153</td><td>1.355</td>
   </tr>
   <tr>
-    <td>10000</td><td>24.311</td><td>19.311</td><td>15.247</td>
+    <td>10000</td><td>2.383</td><td>20.249</td><td>3.055</td>
   </tr>
   <tr>
-    <td>100000</td><td>55.106</td><td>64.357</td><td>16.891</td>
+    <td>100000</td><td>24.486</td><td>78.177</td><td>31.038</td>
   </tr>
   <tr>
-    <td>1000000</td><td>369.540</td><td>503.955</td><td>114.105</td>
+    <td>1000000</td><td>278.229</td><td>507.317</td><td>377.239</td>
   </tr>
 </tbody>
 </table>
 
 <table>
   <tr>
-    <th>Version 1</th>
+    <th>Version 3</th>
     <th>Node Version: 10</th>
   </tr>
   <tr>
@@ -126,26 +88,26 @@
     <th>Length</th>
     <th>C++ TimSort.sort</th>
     <th>JS TimSort.sort</th>
-    <th>array.sort</th>
+    <th>Array.sort</th>
   </tr>
 <tbody>
   <tr>
-    <td rowspan="6">Random numbers</td><td>10</td><td>6.016</td><td>6.615</td><td>0.668</td>
+    <td rowspan="6">Random numbers</td><td>10</td><td>0.109</td><td>0.457</td><td>0.113</td>
   </tr>
   <tr>
-    <td>100</td><td>31.663</td><td>1.651</td><td>18.852</td>
+    <td>100</td><td>0.128</td><td>1.549</td><td>0.183</td>
   </tr>
   <tr>
-    <td>1000</td><td>25.543</td><td>5.980</td><td>22.110</td>
+    <td>1000</td><td>0.322</td><td>5.674</td><td>2.511</td>
   </tr>
   <tr>
-    <td>10000</td><td>26.889</td><td>22.761</td><td>26.338</td>
+    <td>10000</td><td>2.197</td><td>22.075</td><td>8.529</td>
   </tr>
   <tr>
-    <td>100000</td><td>56.226</td><td>65.575</td><td>66.995</td>
+    <td>100000</td><td>23.233</td><td>67.261</td><td>52.563</td>
   </tr>
   <tr>
-    <td>1000000</td><td>360.797</td><td>449.254</td><td>501.470</td>
+    <td>1000000</td><td>267.805</td><td>504.064</td><td>543.472</td>
   </tr>
 </tbody>
 </table>

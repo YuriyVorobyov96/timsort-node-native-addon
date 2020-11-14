@@ -385,6 +385,11 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+/ icu_config.gypi
+/ config.gypi
+/ config.status
+/ config_fips.gypi
+
 =======
 # Local
 docker-compose.yml
@@ -403,3 +408,8 @@ upload
 build/
 build
 /build/*
+*.gypi
+/config.gypi
+build/config.gypi
+build/config.gypi
+/build/config.gypi

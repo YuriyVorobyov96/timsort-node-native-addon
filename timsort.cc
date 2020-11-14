@@ -68,7 +68,7 @@ void timSort(vector<double>& arr, const int& n) {
   }
   for (int size = RUN; size < n; size = 2*size) { 
     for (int left = 0; left < n; left += 2*size) {
-      int mid = left + size - 1; 
+      int mid = min((left + size - 1), (n - 1));
       int right = min((left + 2*size - 1), (n-1)); 
 
       merge(arr, left, mid, right); 
